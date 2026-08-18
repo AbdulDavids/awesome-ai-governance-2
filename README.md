@@ -28,11 +28,11 @@ Cross-posted with commentary at [themindfulcto.com](https://themindfulcto.com).
 The actual legal and standards corpus, prioritised by what UK and EU CTOs need to defend in front of a board.
 
 - **[EU AI Act](https://artificialintelligenceact.eu/the-act/)** — the regulation itself, with reading layer. Article 12 (logging) and Article 15 (accuracy, robustness, cybersecurity) are the runtime-enforceable ones.
-- **[ISO/IEC 42001:2023 — AI Management Systems](https://www.iso.org/standard/81230.html)** — the management-system standard auditors will ask about by name. Annex A controls map cleanly to engineering practice.
+- **[ISO/IEC 42001:2023 — AI Management Systems](https://www.iso.org/standard/42001)** — the management-system standard auditors will ask about by name. Annex A controls map cleanly to engineering practice.
 - **[NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework)** — the US-side reference, well-paired with the EU AI Act for multi-jurisdictional programmes.
 - **[UK AI Cyber Code of Practice](https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice)** — DSIT's voluntary code, becoming the de facto baseline for UK regulated estates.
 - **[OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** — Prompt injection, training data poisoning, model denial of service, and the rest.
-- **[OWASP Agentic Security Initiative](https://owasp.org/www-project-agentic-security-initiative/)** — the agentic-specific extension; emerging but already cited in policy.
+- **[OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/agentic-security-initiative/)** — the agentic-specific extension; emerging but already cited in policy.
 - **[DORA — Digital Operational Resilience Act](https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en)** — financial-services horizontal regulation that interacts heavily with AI Act for high-risk fintech systems.
 - **[NIS2 Directive](https://digital-strategy.ec.europa.eu/en/policies/nis2-directive)** — critical-infrastructure cybersecurity baseline that catches AI-enabled estates.
 
@@ -49,9 +49,6 @@ Practitioner playbooks that compile the above into ways of working.
 
 Where governance meets the production estate. Open-source first.
 
-- **[Microsoft AI Agent Governance Toolkit](https://github.com/microsoft/aigovernance-toolkit)** — the canonical agentic governance reference from Microsoft. Sets the bar for what runtime control looks like.
-- **[Credo AI Lens (open-source)](https://github.com/credo-ai/credoai_lens)** — open-source assessment framework; pair with Credo AI Governance Platform for SaaS evaluation.
-- **[Vaara (LangChain)](https://github.com/langchain-ai/vaara)** — agentic safety harness from the LangChain team.
 - **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** — input/output validators for LLM responses; opinionated and well-maintained.
 - **[NeMo Guardrails (NVIDIA)](https://github.com/NVIDIA/NeMo-Guardrails)** — programmatic guardrails for LLM applications; production-grade.
 
@@ -78,7 +75,6 @@ Run governance at request time.
 
 The evidence layer regulators will ask for.
 
-- **[Langfuse](https://github.com/langfuse/langfuse)** — already listed under evals; doubles as an audit log surface.
 - **[OpenTelemetry Generative AI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)** — the emerging standard for tracing LLM calls; cross-vendor, cross-stack.
 - **[OpenLLMetry](https://github.com/traceloop/openllmetry)** — OTel-based observability built specifically for LLM workloads.
 
@@ -94,7 +90,7 @@ The model-supply-chain layer.
 
 Real-world incidents and rulings. The teacher's salary nobody pays.
 
-- **[Air Canada chatbot ruling, BC Civil Resolution Tribunal, 2024](https://decisions.civilresolutionbc.ca/crt/sc/en/525448/1/document.do)** — the case that established "your chatbot's claims bind you." Required reading.
+- **[Moffatt v. Air Canada, 2024 BCCRT 149](https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html)** — the case that established "your chatbot's claims bind you." Required reading.
 - **[Italian DPA ban on ChatGPT, 2023](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9870832)** — the first major EU regulator move on a public LLM; sets the GDPR-vs-LLM template.
 - **[ICO enforcement actions on AI/automated decisioning (UK)](https://ico.org.uk/action-weve-taken/enforcement/)** — UK regulator's running record of AI-related actions.
 
