@@ -47,7 +47,7 @@ Where governance meets the production estate. Open-source first.
 
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input and output validators for LLM responses. Opinionated and well maintained.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's programmatic guardrails for LLM applications. Production-grade.
-- [Gram](https://github.com/speakeasy-api/gram) - Open-source control plane for MCPs, Skills, and Assistants. Enforces role-scoped access and records searchable events, giving teams a runtime governance point.
+- [Speakeasy AI Control Plane](https://www.speakeasy.com/product/ai-control-plane) - Enterprise control plane for agents, MCP servers, and Skills. Enforces role-scoped access and records searchable events, giving teams a runtime governance point.
 
 ## Evaluation and Red-Teaming
 
